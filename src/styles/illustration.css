@@ -1,0 +1,49 @@
+.illu-container {
+    padding-top    : 48px;
+    padding-left   : 32px;
+    padding-right  : 32px;
+    padding-bottom : 48px;
+    justify-content: center;
+    align-items    : center;
+}
+
+.illu-flex {
+    display: flex;
+}
+
+.illu-cell {
+    width          : 25px;
+    height         : 25px;
+    display        : flex;
+    cursor         : default;
+    justify-content: center;
+    align-items    : center;
+}
+
+.illu-unvisited {
+    background-color: aliceblue;
+}
+
+.illu-visited {
+    background-color: rgba(0, 190, 218, 0.75);
+}
+
+.illu-node {
+    font-size  : 12px;
+    color      : rgb(38, 0, 70);
+    font-weight: bold;
+}
+
+.illu-label {
+    margin-left : 8px;
+    margin-right: 32px;
+    font-weight : 500;
+}
+
+.illu-wall {
+    background-color: rgb(0, 85, 121);
+}
+
+.illu-path {
+    background-color: rgb(255, 254, 106);
+}
